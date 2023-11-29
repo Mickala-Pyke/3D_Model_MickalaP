@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>3D Objects</title>
+</head>
+<body>
+
+    <h1>Mickala's 3D Object display!</h1>
+    <!-- 3D Object 1 -->
+    <div class="column">
+        <div class="model_1">
+            <model-viewer src="../models/Sofa.glb"
+                    ios-src="../models/Sofa.usdz"
+                    alt="A 3D model of a blue sofa"
+                    ar
+                    auto-rotate
+                    camera-controls>
+                    <button class="Hotspot" slot="hotspot-1" data-position="-0.05149035048169309m 0.11676614669701069m 0.005665303200242944m" data-normal="-0.010691816045530296m 0.9982004957057892m 0.05900385955482522m" data-visibility-attribute="visible">
+                        <div class="HotspotAnnotation">Comfortable blue sofa</div>
+                    </button>        
+            </model-viewer>
+        </div>
+
+        <!-- 3D Object 2 -->
+        <div class="model_2">
+            <model-viewer src="../models/Chair_1.glb"
+                    ios-src="../models/Chair_1.usdz"
+                    alt="A 3D model of a blue sofa"
+                    ar
+                    auto-rotate
+                    camera-controls>
+                    <button class="Hotspot" slot="hotspot-1" data-position="0.18268141924367318m 0.0519160571361648m 0.029900814013613213m" data-normal="0.6871545338803591m 0.48580264099280035m 0.5401985195944976m" data-visibility-attribute="visible">
+                        <div class="HotspotAnnotation">Very soft material</div>
+                    </button><button class="Hotspot" slot="hotspot-2" data-position="0.13642074544099525m 0.09242002259627512m 0.06482802773612747m" data-normal="0.8018270280956733m 0.5624363234445316m 0.2018385470752761m" data-visibility-attribute="visible">
+                        <div class="HotspotAnnotation">Pretty marble design</div>
+                    </button><button class="Hotspot" slot="hotspot-3" data-position="0.1994590976850087m 0.04527258525967026m 0.11053262657143387m" data-normal="0.48410134234257646m 0.6335765514150022m -0.6035119251839096m" data-visibility-attribute="visible">
+                        <div class="HotspotAnnotation">Amazing chair to sit in a watch a movie or read a book</div>
+                    </button>
+            </model-viewer>
+        </div>
+        <!-- 3D Object 3 -->
+        <div class="model_3">
+            <model-viewer src="../models/White_Table.glb"
+                    ios-src="../models/White_Table.usdz"
+                    alt="A 3D model of a blue sofa"
+                    ar
+                    auto-rotate
+                    camera-controls>
+                    <button class="Hotspot" slot="hotspot-1" data-position="0.08074127841039014m 0.19480079412460327m -0.15636375429483446m" data-normal="0m 1m 0m" data-visibility-attribute="visible">
+                        <div class="HotspotAnnotation">Solid white desk</div>
+                    </button>
+                    <button class="Hotspot" slot="hotspot-2" data-position="-0.052715970702825715m 0.1637800491715678m 0.12088490303914429m" data-normal="0.8624017251435572m -2.6548521686947386e-7m 0.5062245198223274m" data-visibility-attribute="visible">
+                        <div class="HotspotAnnotation">Has great storage</div>
+                    </button>
+            </model-viewer>
+        </div>
+    </div>
+</body>
+</html>
